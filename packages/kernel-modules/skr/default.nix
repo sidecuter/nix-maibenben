@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
     owner = "sidecuter";
     repo = "mbb_skr";
     rev = "v${version}";
-    hash = "sha256-+OEPtKo0uEmURWWQNvmGuuSO37CKUbEC9hn8lUc+nl4=";
+    hash = "sha256-WrcYSLuZRymTGLiyprVSc2x3VeBu2K0Gyz8WdArenWA=";
   };
   
   hardeningDisable = [ "pic" "format" ];
