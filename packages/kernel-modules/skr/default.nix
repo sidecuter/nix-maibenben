@@ -2,14 +2,14 @@
 
 stdenv.mkDerivation rec {
   pname = "mbb_skr";
-  version = "0.2";
+  version = "0.3";
   name = "${pname}-${version}-${kernel.version}";
 
   src = fetchFromGitHub {
     owner = "sidecuter";
     repo = "mbb_skr";
     rev = "v${version}";
-    hash = "sha256-WrcYSLuZRymTGLiyprVSc2x3VeBu2K0Gyz8WdArenWA=";
+    hash = "sha256-ngHvsie+8sCYyl189KwD1npXXiavWewgYWSUuXY+ZpY=";
   };
   
   hardeningDisable = [ "pic" "format" ];
